@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://c5lhldwkusvvi"]
+
+[ext_resource type="Script" uid="uid://teifr463hcmu" path="res://snake.gd" id="1_juaus"]
+
+[node name="Game" type="Node2D" unique_id=55764344]
+metadata/ColorRect = Color(0, 0, 0, 1)
+
+[node name="Snake" type="Node2D" parent="." unique_id=1837259722]
+script = ExtResource("1_juaus")
